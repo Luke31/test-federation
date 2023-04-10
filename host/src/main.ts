@@ -1,8 +1,8 @@
 import { createApp, defineAsyncComponent } from "vue";
 import "./style.css";
 import App from "./App.vue";
-const MyButton = defineAsyncComponent(() => import("remote/MyButton"));
+const ToggleButton = defineAsyncComponent(() => import("remote/ToggleButton"));
 
 const app = createApp(App);
-app.component("MyButton", MyButton);
+app.component("ToggleButton", ToggleButton);
 app.mount("#app");

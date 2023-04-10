@@ -1,1 +1,1 @@
-declare module "remote/MyButton";
+declare module "remote/ToggleButton";

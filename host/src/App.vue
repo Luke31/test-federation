@@ -4,6 +4,7 @@
 <template>
   <div>
     <p>Host app</p>
-    <MyButton />
+    <!-- <MyButton /> -->
+    <ToggleButton />
   </div>
 </template>
